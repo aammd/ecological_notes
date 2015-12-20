@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Template
-published: false
+published: true
 bibliography: "references.bib"
 csl: "peerj.csl"
 output:
