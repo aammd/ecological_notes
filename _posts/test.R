@@ -1,3 +1,2 @@
-knitr::knit("template.Rmd")
-rmarkdown::render("template.md")
-rmarkdown::pandoc_convert()
+knitr::knit("template.Rmd", output="2015-12-18-post.md")
+
