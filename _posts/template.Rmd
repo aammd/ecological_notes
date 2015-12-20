@@ -1,0 +1,24 @@
+---
+layout: post
+title: Template
+published: false
+bibliography: "references.bib"
+csl: "peerj.csl"
+output:
+  html_document:
+    keep_md: true
+---
+
+```{r echo=FALSE, message=FALSE}
+library("knitcitations")
+cleanbib()
+# options("citation_format" = "pandoc")
+cite_options(style = "html", hyperlink = "to.doc")
+```
+
+This is just to check out the process and make sure it works OK. 
+Testing this citation `r citep("10.1890/11-0011.1")`. does it work
+
+```{r echo=FALSE, message=FALSE}
+write.bibtex(file="references.bib")
+```
